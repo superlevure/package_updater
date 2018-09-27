@@ -11,7 +11,11 @@ This module allow any package/module/script to be updated with the latest releas
 import sys
 import package_updater
 
-updater = package_updater.Update(package_name="Name of the package", current_version="1.1.2", repo="https://api.github.com/repos/superlevure/SRU_com/releases/latest")
+updater = package_updater.Update(
+    package_name="Name of the package",
+    current_version="1.1.2",
+    repo="https://api.github.com/repos/superlevure/SRU_com/releases/latest"
+    )
 
 if sys.argv[1] == "--update":
     updater.update()

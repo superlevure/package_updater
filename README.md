@@ -5,6 +5,12 @@
 
 This module allow any package/module/script to be updated with the latest release from github 
 
+## Install
+
+```shell
+pip3 install package-updater
+```
+
 ## Usage
 
 ```python

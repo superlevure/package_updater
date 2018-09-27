@@ -1,7 +1,7 @@
 import setuptools
 import package_updater
 
-with open("README.md", "r") as fh:
+with open("README", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
@@ -19,4 +19,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    install_requires=["tqdm", "requests"],
 )
